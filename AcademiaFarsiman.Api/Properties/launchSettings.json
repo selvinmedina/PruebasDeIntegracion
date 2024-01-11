@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51852",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FS_SQL_ACADEMIA_FARSIMAN_USER": "Desarrollo",
+        "FS_SQL_ACADEMIA_FARSIMAN_PASSWORD": "dsrcorp",
+        "FS_SQL_ACADEMIA_FARSIMAN_DB": "AcademiaFarsiman",
+        "FS_SQL_ACADEMIA_FARSIMAN_SERVER": "192.168.1.33"
+      }
+    },
+    "AcademiaFarsiman.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:51851",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FS_SQL_ACADEMIA_FARSIMAN_USER": "Desarrollo",
+        "FS_SQL_ACADEMIA_FARSIMAN_PASSWORD": "dsrcorp",
+        "FS_SQL_ACADEMIA_FARSIMAN_DB": "AcademiaFarsiman",
+        "FS_SQL_ACADEMIA_FARSIMAN_SERVER": "192.168.1.33"
+      }
+    }
+  }
+}
